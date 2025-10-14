@@ -1,0 +1,18 @@
+FROM node:20
+
+WORKDIR /app
+
+RUN npm install --global pm2
+
+COPY package.json package-lock.json ./
+RUN npm ci --ignore-scripts && npm install sharp
+
+COPY . .
+
+RUN npm run build
+
+EXPOSE 5202
+
+USER node
+
+CMD ["pm2-runtime", "npm", "--", "start"]
