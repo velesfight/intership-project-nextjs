@@ -16,6 +16,9 @@
 ## Запуск
 
 1. `git clone https://gitlab.ghfls.ru/root/nude_web_v2_next.git`
-2. в директории проекта создать env файл с переменной, которая содержит api url: `echo "NEXT_PUBLIC_API_URL = 'https://dev-back-nude-sdhf43sd5f-v2.ghfls.ru'" > .env`
+2. в директории проекта создать файл `.env` с переменной, которая содержит api url:
+   ```
+   NEXT_PUBLIC_API_URL = 'https://dev-back-nude-sdhf43sd5f-v2.ghfls.ru
+   ```
 3. `npm i`
 4. `npm run dev`
