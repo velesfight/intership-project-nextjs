@@ -1,6 +1,9 @@
 import { NextIntlClientProvider, hasLocale } from 'next-intl';
+import { Geologica } from 'next/font/google';
 import { notFound } from 'next/navigation';
 import { ReactNode } from 'react';
+
+const geologica = Geologica({ subsets: ['latin', 'cyrillic'] });
 
 import { routing } from '~/shared/configs/i18n';
 
@@ -18,7 +21,7 @@ export default async function RootLayout({
 
   return (
     <html lang={locale}>
-      <body>
+      <body className={geologica.className}>
         <NextIntlClientProvider>{children}</NextIntlClientProvider>
       </body>
     </html>

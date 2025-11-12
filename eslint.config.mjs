@@ -20,19 +20,19 @@ const eslintConfig = [
     rules: {
       'no-console': 'warn',
       'no-duplicate-imports': 'error',
-      // 'no-restricted-imports': [
-      //   'error',
-      //   {
-      //     name: 'next/link',
-      //     importNames: ['Link'],
-      //     message: 'Import from `~/shared/lib` instead.',
-      //   },
-      //   {
-      //     name: 'next/navigation',
-      //     importNames: ['redirect', 'permanentRedirect', 'useRouter', 'usePathname'],
-      //     message: 'Import from `~/shared/lib` instead.',
-      //   },
-      // ],
+      'no-restricted-imports': [
+        'error',
+        {
+          name: 'next/link',
+          importNames: ['Link'],
+          message: 'Import from `~/shared/lib` instead.',
+        },
+        {
+          name: 'next/navigation',
+          importNames: ['redirect', 'permanentRedirect', 'useRouter', 'usePathname'],
+          message: 'Import from `~/shared/lib` instead.',
+        },
+      ],
       'perfectionist/sort-imports': ['error', { type: 'natural', order: 'asc' }],
       'react/jsx-curly-brace-presence': 'error',
       'react/jsx-newline': ['error', { prevent: true }],
