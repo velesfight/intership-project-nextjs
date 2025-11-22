@@ -2,6 +2,15 @@
   "translation": {
     "HomePage": {
       "title": "NUDE 应用"
+    },
+    "AuthPage": {
+      "signIn": "登录表单"
+    },
+    "AppPage": {
+      "feed": "内容流占位",
+      "chat": "聊天占位",
+      "tests": "测试占位",
+      "profile": "个人资料占位"
     }
   }
 }

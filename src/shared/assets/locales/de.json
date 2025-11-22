@@ -2,6 +2,15 @@
   "translation": {
     "HomePage": {
       "title": "NUDE-APP"
+    },
+    "AuthPage": {
+      "signIn": "Anmeldeformular"
+    },
+    "AppPage": {
+      "feed": "Feed Platzhalter",
+      "chat": "Chat Platzhalter",
+      "tests": "Tests Platzhalter",
+      "profile": "Profil Platzhalter"
     }
   }
 }

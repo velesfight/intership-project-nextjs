@@ -2,6 +2,15 @@
   "translation": {
     "HomePage": {
       "title": "APLICACIÓN NUDE"
+    },
+    "AuthPage": {
+      "signIn": "Formulario de inicio de sesión"
+    },
+    "AppPage": {
+      "feed": "Feed (marcador de posición)",
+      "chat": "Chat (marcador de posición)",
+      "tests": "Pruebas (marcador de posición)",
+      "profile": "Perfil (marcador de posición)"
     }
   }
 }

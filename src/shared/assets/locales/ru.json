@@ -2,6 +2,15 @@
   "translation": {
     "HomePage": {
       "title": "NUDE ПРИЛОЖЕНИЕ"
+    },
+    "AuthPage": {
+      "signIn": "Форма входа"
+    },
+    "AppPage": {
+      "feed": "Лента (заглушка)",
+      "chat": "Чат (заглушка)",
+      "tests": "Тесты (заглушка)",
+      "profile": "Профиль (заглушка)"
     }
   }
 }
