@@ -8,7 +8,7 @@ import { Route } from '~/shared/constants/routes';
 
 import styles from './AuthLayout.module.css';
 
-export const AuthLayout = ({ children }: { children: React.ReactNode }) => {
+export default function AuthLayout({ children }: { children: React.ReactNode }) {
   const logoTitleId = useId();
 
   return (
@@ -30,4 +30,4 @@ export const AuthLayout = ({ children }: { children: React.ReactNode }) => {
       <Background className={styles.background} aria-hidden />
     </>
   );
-};
+}

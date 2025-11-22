@@ -3,7 +3,7 @@ import { TopBar } from '~/shared/components/TopBar';
 
 import styles from './AppLayout.module.css';
 
-export const AppLayout = ({ children }: { children: React.ReactNode }) => {
+export default function AppLayout({ children }: { children: React.ReactNode }) {
   return (
     <>
       <div className={styles.topBar}>
@@ -15,4 +15,4 @@ export const AppLayout = ({ children }: { children: React.ReactNode }) => {
       <main className={styles.main}>{children}</main>
     </>
   );
-};
+}
