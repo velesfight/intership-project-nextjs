@@ -3,10 +3,10 @@ import { clsx } from 'clsx';
 import { useTranslations } from 'next-intl';
 import { FC, useId, useState } from 'react';
 
-import { Hint } from '~/app/components/Hint';
-import { Text } from '~/app/components/Text';
 import EyeSlash from '~/shared/assets/icons/eye-slash.svg';
 import Eye from '~/shared/assets/icons/eye.svg';
+import { Hint } from '~/shared/components/Hint';
+import { Text } from '~/shared/components/Text';
 
 import { DEFAULT_TYPE } from '../constants';
 import { TextInputProps } from '../types';

@@ -1,7 +1,7 @@
 import { clsx } from 'clsx';
 
-import { Text } from '~/app/components/Text/ui/Text';
 import SpinnerIcon from '~/shared/assets/icons/spinner.svg';
+import { Text } from '~/shared/components/Text/ui/Text';
 import { Link } from '~/shared/lib/navigation';
 
 import { DEFAULT_ICON_SIDE, DEFAULT_SIZE, DEFAULT_VARIANT } from '../constants';

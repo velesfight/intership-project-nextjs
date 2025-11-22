@@ -3,9 +3,9 @@ import { clsx } from 'clsx';
 import { useTranslations } from 'next-intl';
 import Link from 'next/link';
 
-import { Logo } from '~/app/components/Logo';
-import { Text } from '~/app/components/Text';
 import UserCircleIcon from '~/shared/assets/icons/user-circle.svg';
+import { Logo } from '~/shared/components/Logo';
+import { Text } from '~/shared/components/Text';
 import { BRAND } from '~/shared/constants';
 import { Route } from '~/shared/constants/routes';
 import { usePathname } from '~/shared/lib/navigation';
@@ -13,7 +13,7 @@ import { usePathname } from '~/shared/lib/navigation';
 import styles from './TopBar.module.css';
 
 export const TopBar = () => {
-  const t = useTranslations('TopBar'); // namespace для переводов
+  const t = useTranslations('TopBar');
   const pathname = usePathname();
   const isProfileActive = pathname === Route.Profile;
   return (

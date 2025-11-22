@@ -1,5 +1,5 @@
-import { Navigation } from '~/app/components/Navigation';
-import { TopBar } from '~/app/components/TopBar';
+import { Navigation } from '~/shared/components/Navigation';
+import { TopBar } from '~/shared/components/TopBar';
 
 import styles from './AppLayout.module.css';
 

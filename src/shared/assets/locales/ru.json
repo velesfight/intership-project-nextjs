@@ -2,6 +2,14 @@
   "translation": {
     "HomePage": {
       "title": "NUDE ПРИЛОЖЕНИЕ"
+    },
+    "AppPage": {
+      "title": "NUDE APP",
+      "description": "заглушка для приложения."
+    },
+    "AuthPage": {
+      "title": "NUDE AUTH",
+      "description": "заглушка для авторизации."
     }
   }
 }

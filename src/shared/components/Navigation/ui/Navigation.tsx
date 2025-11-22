@@ -2,8 +2,8 @@ import { clsx } from 'clsx';
 import { useTranslations } from 'next-intl';
 import Link from 'next/link';
 
-import { Counter } from '~/app/components/Counter';
-import { Text } from '~/app/components/Text';
+import { Counter } from '~/shared/components/Counter';
+import { Text } from '~/shared/components/Text';
 import { usePathname } from '~/shared/lib/navigation';
 
 import { NAV_ITEMS_CONFIG } from '../constants';

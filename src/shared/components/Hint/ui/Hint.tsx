@@ -1,7 +1,7 @@
 import { clsx } from 'clsx';
 import { FC } from 'react';
 
-import { Text } from '~/app/components/Text';
+import { Text } from '~/shared/components/Text';
 
 import { DEFAULT_VARIANT, ICON } from '../constants';
 import { HintProps } from '../types';
