@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { useId } from 'react';
+import React, { useId } from 'react';
 
 import Background from '~/shared/assets/icons/auth-background.svg';
 import Logo from '~/shared/assets/logos/nudeLogoGradient.svg';

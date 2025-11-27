@@ -1,3 +1,5 @@
+import React from 'react';
+
 import { Navigation } from '~/shared/components/Navigation';
 import { TopBar } from '~/shared/components/TopBar';
 

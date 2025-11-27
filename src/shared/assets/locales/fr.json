@@ -1,16 +1,14 @@
 {
-  "translation": {
-    "HomePage": {
-      "title": "APPLICATION NUDE"
-    },
-    "AuthPage": {
-      "signIn": "Formulaire de connexion"
-    },
-    "AppPage": {
-      "feed": "Flux (placeholder)",
-      "chat": "Chat (placeholder)",
-      "tests": "Tests (placeholder)",
-      "profile": "Profil (placeholder)"
-    }
+  "HomePage": {
+    "title": "APPLICATION NUDE"
+  },
+  "AuthPage": {
+    "signIn": "Formulaire de connexion"
+  },
+  "AppPage": {
+    "feed": "Flux (placeholder)",
+    "chat": "Chat (placeholder)",
+    "tests": "Tests (placeholder)",
+    "profile": "Profil (placeholder)"
   }
 }

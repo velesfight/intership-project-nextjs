@@ -1,16 +1,14 @@
 {
-  "translation": {
-    "HomePage": {
-      "title": "NUDE APP"
-    },
-    "AuthPage": {
-      "signIn": "Sign In Form"
-    },
-    "AppPage": {
-      "feed": "Feed stub",
-      "chat": "Chat stub",
-      "tests": "Tests stub",
-      "profile": "Profile stub"
-    }
+  "HomePage": {
+    "title": "NUDE APP"
+  },
+  "AuthPage": {
+    "signIn": "Sign In Form"
+  },
+  "AppPage": {
+    "feed": "Feed stub",
+    "chat": "Chat stub",
+    "tests": "Tests stub",
+    "profile": "Profile stub"
   }
 }

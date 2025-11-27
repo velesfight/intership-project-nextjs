@@ -1,7 +1,7 @@
 import { useTranslations } from 'next-intl';
 
 export default function SignInPage() {
-  const t = useTranslations('translation');
+  const t = useTranslations('AuthPage');
 
-  return <div>{t('AuthPage.signIn')}</div>;
+  return <div>{t('signIn')}</div>;
 }

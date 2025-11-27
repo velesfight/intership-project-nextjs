@@ -1,7 +1,7 @@
 import { useTranslations } from 'next-intl';
 
 export default function ProfilePage() {
-  const t = useTranslations('translation');
+  const t = useTranslations('AppPage');
 
-  return <div>{t('AppPage.profile')}</div>;
+  return <div>{t('profile')}</div>;
 }
