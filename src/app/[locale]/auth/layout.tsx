@@ -6,7 +6,7 @@ import Logo from '~/shared/assets/logos/nudeLogoGradient.svg';
 import { BRAND } from '~/shared/constants';
 import { Route } from '~/shared/constants/routes';
 
-import styles from './AuthLayout.module.css';
+import styles from './layout.module.css';
 
 export default function AuthLayout({ children }: { children: React.ReactNode }) {
   const logoTitleId = useId();

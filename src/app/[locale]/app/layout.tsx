@@ -3,7 +3,7 @@ import React from 'react';
 import { Navigation } from '~/shared/components/Navigation';
 import { TopBar } from '~/shared/components/TopBar';
 
-import styles from './AppLayout.module.css';
+import styles from './layout.module.css';
 
 export default function AppLayout({ children }: { children: React.ReactNode }) {
   return (
