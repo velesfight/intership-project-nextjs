@@ -1,7 +1,7 @@
 import { NextIntlClientProvider, hasLocale } from 'next-intl';
 import { Geologica } from 'next/font/google';
 import { notFound } from 'next/navigation';
-import { ReactNode } from 'react';
+import React, { ReactNode } from 'react';
 
 const geologica = Geologica({ subsets: ['latin', 'cyrillic'] });
 
