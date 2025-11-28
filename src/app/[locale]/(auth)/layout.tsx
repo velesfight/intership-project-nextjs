@@ -1,12 +1,12 @@
 'use client';
 
-import Link from 'next/link';
 import React, { useId } from 'react';
 
 import Background from '~/shared/assets/icons/auth-background.svg';
 import Logo from '~/shared/assets/logos/nudeLogoGradient.svg';
 import { BRAND } from '~/shared/constants';
 import { Route } from '~/shared/constants/routes';
+import { Link } from '~/shared/lib/navigation';
 
 import styles from './layout.module.css';
 
