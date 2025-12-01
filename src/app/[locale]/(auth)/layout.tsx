@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useId } from 'react';
+import { ReactNode, useId } from 'react';
 
 import Background from '~/shared/assets/icons/auth-background.svg';
 import Logo from '~/shared/assets/logos/nudeLogoGradient.svg';
@@ -10,7 +10,7 @@ import { Link } from '~/shared/lib/navigation';
 
 import styles from './layout.module.css';
 
-export default function AuthLayout({ children }: { children: React.ReactNode }) {
+export default function AuthLayout({ children }: { children: ReactNode }) {
   const logoTitleId = useId();
 
   return (
